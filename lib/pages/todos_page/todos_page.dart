@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'create_todo.dart';
+import 'search_and_filter_todo.dart';
 import 'todo_header.dart';
 
 class TodosPage extends StatelessWidget {
@@ -20,6 +21,8 @@ class TodosPage extends StatelessWidget {
               children: [
                 TodoHeader(),
                 CreateTodo(),
+                SizedBox(height: 20.0),
+                SearchAndFilterTodo(),
               ],
             ),
           ),
